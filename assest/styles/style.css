@@ -1,0 +1,96 @@
+body{
+  background-color: rgb(224, 212, 194);
+}
+.herobox1{
+  margin-top: 50px;
+  width: 55%;
+  margin-left: 30px;
+}
+.herobox2{
+  margin-top: 30px;
+  margin-right: 160px;
+}
+.navlogo{
+  color: rgb(117, 111, 103);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+.contact-button{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+.first-container{
+  display: flex;
+ justify-content: space-between;
+}
+.bottom-container{
+  background-color: rgb(224, 212, 194);
+  border-bottom: 1px solid rgba(32, 28, 28, 0.466);
+  border-left: 1px solid rgba(32, 28, 28, 0.466);
+}
+.navlogo{
+  margin-right: 700px;
+}
+.col1{
+  border-right: 1px solid rgba(32, 28, 28, 0.466);
+}
+.col1:hover{
+  background-color: rgb(184, 175, 164);
+  transition-duration: 1s;
+}
+.bottom-container a{
+  text-decoration: none;
+  color: #000;
+}
+h1{
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+  color: burlywood;
+}
+@media screen and (max-width: 1200px) {
+  .herobox2{
+    margin-right: 10%;
+  }
+  .navlogo{
+    margin-right: 2px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navlogo{
+    margin-right: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navlogo{
+    margin-right: 2px;
+  }
+}
+@media screen and (max-width: 767px){
+  .first-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .herobox1{
+    margin-left: 0;
+    width: 100%;
+  }
+  .herobox2{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .contact-button{
+    margin-left: 0px;
+  }
+  .navlogo{
+    margin-right: 2px;
+  }
+  .col1{
+    border-bottom: 1px solid;
+  }
+}
